@@ -1,0 +1,15 @@
+@use '_feature.scss';
+
+.features{
+    width: 80%;
+    margin: 0 auto;
+    overflow-x: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2em;
+
+    @media screen and (min-width: 500px) {
+        flex-direction: row;
+    }
+}
